@@ -1,0 +1,3 @@
+DROP TABLE Player;
+CREATE TABLE Player(playerID int Primary Key not Null, password text not null, playerName text not null, playerLP int not null, currentRoom int not null);
+INSERT INTO Player(playerID, password, playerName, playerLP, currentRoom) VALUES(1, 'pass', 'Aznitan', 100, 1);

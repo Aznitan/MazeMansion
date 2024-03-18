@@ -1,0 +1,7 @@
+DROP TABLE Puzzle;
+CREATE TABLE Puzzle(puzzleID Primary Key not null, itemID int not Null, puzzleDescription text not null, roomID int not null);
+INSERT INTO Puzzle(puzzleID, itemID, puzzleDescription, roomID) VALUES(1, 1,'search for a 4-digit code to unlock box', 2);
+INSERT INTO Puzzle(puzzleID, itemID, puzzleDescription, roomID) VALUES(2, 2,'a picture is either not in the right spot or needs to be fixed', 3);
+INSERT INTO Puzzle(puzzleID, itemID, puzzleDescription, roomID) VALUES(3, 3,'I am not alive, but I can grow; I don''t have lungs, but I need air; I don''t have a mouth, but water kills me. What am I?', 12);
+INSERT INTO Puzzle(puzzleID, itemID, puzzleDescription, roomID) VALUES(4, 4,'use the symbols and figure out what symbol picks what lock', 24);
+INSERT INTO Puzzle(puzzleID, itemID, puzzleDescription, roomID) VALUES(5, 5,'solve riddle to flip the right switch, To open the way, find the symbol that represents love.', 25);

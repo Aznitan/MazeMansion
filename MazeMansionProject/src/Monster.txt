@@ -1,0 +1,4 @@
+DROP TABLE Monster;
+CREATE TABLE Monster(monsterID int Primary Key not Null, monsterName text not null, monsterLP int not null, currentRoom int not null);
+INSERT INTO Monster(monsterID, monsterName, monsterLP, currentRoom) VALUES(1, 'Evox', 1, 10);
+INSERT INTO Monster(monsterID, monsterName, monsterLP, currentRoom) VALUES(2, 'Nuck', 1, 30);

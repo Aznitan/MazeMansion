@@ -1,0 +1,11 @@
+DROP TABLE Item;
+CREATE TABLE Item(itemID int Primary Key not Null, itemName text not null, itemDescription text not null, itemDamage int not null, currentRoom int not null);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(1,'Shovel', 'Shovel that has been used for years and is rusty on the handle and the shovel', 15, 29);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(2,'Grass Hook', 'grass hook used to dig into the ground and is sharp to cause more damage', 20, 29);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(3,'Rake', 'long metal rake that is a little rusty', 20, 29);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(4,'Helipad Door Key', 'key to open helipad door to escape in the helicopter', 15, 28);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(5,'Radio Transmitter', 'stationary transmitter to try and call for help', 0, 27);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(6,'Flare gun', 'flare gun to get helicopter to spot you', 15, 28);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(7,'MedKit', 'med-kit found in case of healing when low on health', 0, 27);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(8,'Magazine', '6-round magazine for a gun', 25, 28);
+INSERT INTO Item(itemID, itemName, itemDescription, itemDamage, currentRoom) VALUES(9,'Baseball Bat', 'bloody baseball bat', 10, 2);
